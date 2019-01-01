@@ -3,7 +3,7 @@ from IPython.display import Image,display
 import matplotlib.pyplot as plt
 
 
-#Xor data
+
 XORdata=np.array([[0,0,0],[0,1,1],[1,0,1],[1,1,0]])
 X=XORdata[:,0:2]
 y=XORdata[:,-1]
@@ -136,7 +136,7 @@ def predict(network, row):
     return outputs
 
 	
-pred=predict(net,np.array([1,0])) #aynı olunca 0 farklı olunca 1 xor
+pred=predict(net,np.array([1,0])) 
 output=np.argmax(pred)
 print(output)
 
