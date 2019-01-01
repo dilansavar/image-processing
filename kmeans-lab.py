@@ -26,7 +26,7 @@ virginica_sepal_width_avg=np.mean(virginica[:,1])
 virginica_petal_length_avg=np.mean(virginica[:,2])
 virginica_petal_width_avg=np.mean(virginica[:,3])
 
-#eğer veriler sınıflara ayrılmışsa elimizdeki veri setinde sınıf sayısını bulabiliriz.
+
 def sinifsayisibul():
     h=[]
     for i in range(len(iris.target)):
