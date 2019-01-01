@@ -54,7 +54,7 @@ def sinifdondur(sinif):
         print("-"*50)
         class_counter+=1
         
-sinifdondur(0) #0. sınıfın verileri gelir kaç tane sınıf olduğunuda sinifsayisibul() fonk'nu kullanılarak bulunabilir
+sinifdondur(0) 
 
 print("*"*100)
 
@@ -115,7 +115,7 @@ for i in range(150):
 
     
 def get_flower(i): 
-    #iris data üzerinde bana i değerinde gelen datanın 0 2 3 sütunun donduruyorum
+    
     x=iris.data[i][0]
     y=iris.data[i][2]
     z=iris.data[i][3]
@@ -123,7 +123,7 @@ def get_flower(i):
     
     
 def update_mu(): 
-    #150 ya kadar her bir çicek için bana class bilgisi ver güncelle ve geriye mu'leri ver
+    
     hata="yok"
     mu_0_counter=0.0001
     mu_0_sum=0
