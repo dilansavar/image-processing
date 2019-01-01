@@ -11,9 +11,7 @@ def main():
     cap.set(3, w)
     cap.set(4, h)
 
-    #    print(cap.get(3))
-    #    print(cap.get(4))
-
+   
     if cap.isOpened():
         ret, frame = cap.read()
     else:
@@ -42,7 +40,7 @@ def main():
 
         cv2.imshow("Original", frame2)
         cv2.imshow("Output", frame1)
-        if cv2.waitKey(1) == 27:  # exit on ESC
+        if cv2.waitKey(1) == 27:  # exit ESC
             break
 
         frame1 = frame2
